@@ -5,6 +5,7 @@ body {
   background-image: url(img/space.jpg);
   margin: 50px;
   background-repeat: no-repeat;
+  background-size: 100%;
 }
 .cube {
   margin: auto;
