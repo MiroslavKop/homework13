@@ -34,7 +34,7 @@ body {
   transform: translateZ(100px);
 }
 .back {
-  transform: rotateY(180deg) translateZ(-100px);
+  transform: translateZ(-100px) rotateY(180deg);
 }
 .top {
   transform: rotateX(-270deg) translateY(-100px);
@@ -83,15 +83,15 @@ body {
   gap: 200px;
 }
 .fallingstar {
-  width: 2px;
-  height: 2px;
+  width: 6px;
+  height: 6px;
   border-radius: 50%;
   background-color: white;
   animation-name: fallingstar;
-  animation-duration: 1.5s;
+  animation-duration: 0.5s;
   transition: 0.5s;
   animation-iteration-count: infinite;
-  box-shadow: 0px 0px 5px 5px white;
+  box-shadow: 0px 0px 5px 5px yellow;
 }
 @keyframes fallingstar {
   from {
