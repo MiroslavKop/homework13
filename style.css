@@ -98,7 +98,7 @@ body {
     transform: translateY(-400px);
   }
   to {
-    transform: translateY(340px) translateX(300px);
+    transform: translateY(340px);
   }
 }
 .fallingstar > div:nth-child(1) {
