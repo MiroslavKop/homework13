@@ -1,11 +1,13 @@
 * {
   box-sizing: border-box;
 }
-body {
+html {
   background-image: url(img/space.jpg);
-  margin: 50px;
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
+}
+body {
+  margin: 50px;
 }
 .cube {
   margin: auto;
